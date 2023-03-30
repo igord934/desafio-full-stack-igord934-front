@@ -21,7 +21,7 @@ function Kontatos({ kontatos }: iKontatos) {
   return (
     <Container>
       <div className="header">
-        <Title>Tecnologias</Title>
+        <Title>Kontatos</Title>
         <AddButton onClick={openModal}>+</AddButton>
       </div>
       {kontatos.length > 0 ? (
